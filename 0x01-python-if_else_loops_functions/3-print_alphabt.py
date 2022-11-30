@@ -1,5 +1,5 @@
-#!/usr/bin/python3   
-for a in range(97, 97 + 26):
-if a !== 113 or a !== 101:
-continue
-print("{:c}".format(a), end='')
+#!/usr/bin/python3
+for i in range(97, 123):
+    if i != 113 and i != 101:
+        print("{}".format(chr(i)), end="")
+
