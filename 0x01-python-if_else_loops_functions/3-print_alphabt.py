@@ -1,5 +1,5 @@
 #!/usr/bin/python3   
-in range(97, 97 + 26):
-    if a == 113 or a == 101:
-        continue
-    print("{:c}".format(a), end='')
+for alpha_letters in range(ord('a'), ord('z')+1):
+    if alpha_letters == 'e' or alpha_letters == 'q':
+       continue
+    print("{:c}".format(alpha_letters), end="")
